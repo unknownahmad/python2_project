@@ -2,7 +2,7 @@ import random
 import time
 import os
 
-# Team data
+
 TEAMS = [
     "Real Madrid", "Barcelona", "Bayern Munich", "Manchester City",
     "PSG", "Liverpool", "Chelsea", "Juventus",
@@ -10,7 +10,7 @@ TEAMS = [
     "Ajax", "Benfica", "Porto", "Atletico Madrid"
 ]
 
-# Multipliers for each round
+
 MULTIPLIERS = {
     "Round of 16": 1.2,
     "Quarter Finals": 1.5,
@@ -39,7 +39,7 @@ def get_user_team():
         try:
             choice = input("\nEnter the number or name of your team: ").strip()
             
-            # Check if input is a number
+            
             if choice.isdigit():
                 choice_num = int(choice)
                 if 1 <= choice_num <= len(TEAMS):
@@ -47,7 +47,7 @@ def get_user_team():
                 else:
                     print("❌ Invalid number! Please choose between 1-16")
             
-            # Check if input is a team name
+            
             else:
                 for team in TEAMS:
                     if choice.lower() == team.lower():
@@ -78,7 +78,7 @@ def simulate_match(user_team, opponent):
         print(".", end="", flush=True)
     print()
     
-    # Simulate scores
+    
     user_score = random.randint(0, 3)
     opponent_score = random.randint(0, 3)
     
@@ -91,7 +91,7 @@ def simulate_match(user_team, opponent):
         print("💀 YOU LOSE! Your team is eliminated!")
         return False, user_score, opponent_score
     else:
-        # Penalty shootout for draws
+        
         print("⚡ It's a draw! Going to penalty shootout...")
         time.sleep(1)
         penalty_win = random.choice([True, False])
@@ -112,7 +112,7 @@ def play_tournament():
     clear_screen()
     display_welcome()
     
-    # Get user inputs
+    
     user_team = get_user_team()
     bet_amount = get_bet_amount()
     
@@ -121,7 +121,7 @@ def play_tournament():
     
     input("\nPress Enter to start the tournament...")
     
-    # Tournament rounds
+    
     rounds = ["Round of 16", "Quarter Finals", "Semi Finals", "Final"]
     current_amount = bet_amount
     available_teams = TEAMS.copy()
@@ -131,30 +131,30 @@ def play_tournament():
         print(f"\n🏆 {round_name}")
         print("=" * 30)
         
-        # Get opponent
+        
         opponent = get_opponent(user_team, available_teams)
         available_teams.remove(opponent)
         
-        # Simulate match
+        
         win, user_score, opponent_score = simulate_match(user_team, opponent)
         
         if not win:
             print(f"\n💸 Game Over! You lost your bet of ${bet_amount:.2f}")
             return
         
-        # Calculate winnings
+        
         multiplier = MULTIPLIERS[round_name]
         current_amount *= multiplier
         
         print(f"\n💰 Current winnings: ${current_amount:.2f} (x{multiplier})")
         
-        # Check if it's the final
+        
         if round_name == "Final":
             print(f"\n🎊 CONGRATULATIONS! {user_team} WINS THE CHAMPIONS LEAGUE!")
             print(f"🏆 TOTAL WINNINGS: ${current_amount:.2f}")
             break
         
-        # Offer cashout option
+        
         while True:
             print("\nWhat would you like to do?")
             print("1. Continue to next round")
@@ -196,6 +196,5 @@ def main():
         if choice == "1":
             input("\nPress Enter to continue...")
 
-# Run the game
 if __name__ == "__main__":
     main()
