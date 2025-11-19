@@ -5,3 +5,40 @@
 [2025-11-19 03:21:28] Round of 16: Bayern Munich 0-1 PSG Result: LOSS
 [2025-11-19 03:21:37] Round of 16: Liverpool 1-0 Benfica Result: WIN
 [2025-11-19 03:21:42] Quarter Finals: Liverpool 3-3 Dortmund Result: LOSS
+[2025-11-19 04:39:22] Round of 16: Liverpool 3-0 Chelsea Result: WIN
+[2025-11-19 04:39:38] Round of 16: Liverpool 3-3 PSG Result: LOSS
+[2025-11-19 04:39:42] Round of 16: Liverpool 2-0 Chelsea Result: WIN
+[2025-11-19 04:40:00] Round of 16: Liverpool 3-2 Real Madrid Result: WIN
+[2025-11-19 04:40:04] Round of 16: Liverpool 1-3 AC Milan Result: LOSS
+[2025-11-19 04:48:57] Round of 16: Barcelona 0-2 Porto Result: LOSS
+[2025-11-19 04:49:14] Round of 16: Barcelona 3-3 Bayern Munich Result: LOSS
+[2025-11-19 04:49:20] Round of 16: Barcelona 3-2 Benfica Result: WIN
+[2025-11-19 04:49:29] Round of 16: Barcelona 0-0 Inter Milan Result: LOSS
+[2025-11-19 04:52:11] Round of 16: Barcelona 2-1 Real Madrid Result: WIN
+[2025-11-19 04:52:15] Round of 16: Barcelona 0-2 Inter Milan Result: LOSS
+[2025-11-19 04:52:35] Round of 16: Barcelona 2-2 Ajax Result: LOSS
+[2025-11-19 04:52:36] Round of 16: Barcelona 2-3 Real Madrid Result: LOSS
+[2025-11-19 04:52:40] Round of 16: Barcelona 0-0 Bayern Munich Result: WIN
+[2025-11-19 04:52:52] Round of 16: Barcelona 3-2 Chelsea Result: WIN
+[2025-11-19 04:53:01] Round of 16: Barcelona 0-3 Chelsea Result: LOSS
+[2025-11-19 04:55:31] Round of 16: Barcelona 1-0 Dortmund Result: WIN
+[2025-11-19 04:55:37] Quarter Finals: Barcelona 2-1 Liverpool Result: WIN
+[2025-11-19 04:55:43] Semi Finals: Barcelona 2-0 Atletico Madrid Result: WIN
+[2025-11-19 04:55:50] Final: Barcelona 3-2 Real Madrid Result: WIN
+[2025-11-19 04:56:26] Round of 16: Barcelona 2-1 Dortmund Result: WIN
+[2025-11-19 04:56:33] Quarter Finals: Barcelona 0-0 Liverpool Result: LOSS
+[2025-11-19 04:59:06] Round of 16: Bayern Munich 0-1 Juventus Result: LOSS
+[2025-11-19 04:59:09] Round of 16: Bayern Munich 1-1 Real Madrid Result: WIN
+[2025-11-19 04:59:12] Quarter Finals: Bayern Munich 3-2 Ajax Result: WIN
+[2025-11-19 04:59:14] Semi Finals: Bayern Munich 3-2 Porto Result: WIN
+[2025-11-19 04:59:15] Final: Bayern Munich 0-2 Juventus Result: LOSS
+[2025-11-19 05:00:34] Round of 16: Bayern Munich 1-3 Arsenal Result: LOSS
+[2025-11-19 05:00:47] Round of 16: Barcelona 1-1 Arsenal Result: LOSS
+[2025-11-19 05:00:58] Round of 16: Bayern Munich 2-1 AC Milan Result: WIN
+[2025-11-19 05:01:05] Quarter Finals: Bayern Munich 3-0 Arsenal Result: WIN
+[2025-11-19 05:01:08] Semi Finals: Bayern Munich 3-0 Atletico Madrid Result: WIN
+[2025-11-19 05:01:11] Final: Bayern Munich 2-1 Porto Result: WIN
+[2025-11-19 05:05:03] Round of 16: Chelsea 3-3 Dortmund Result: LOSS
+[2025-11-19 05:05:40] Round of 16: Manchester City 2-0 Benfica Result: WIN
+[2025-11-19 05:05:45] Quarter Finals: Manchester City 3-0 Barcelona Result: WIN
+[2025-11-19 05:05:54] Semi Finals: Manchester City 1-2 Bayern Munich Result: LOSS

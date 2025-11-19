@@ -27,20 +27,18 @@ The purpose is to create a fun and interactive gambling-style experience while d
 
 ## **To-Do List**
 - [x] Design program structure  
-- [ ] Create main menu (navigation, exit command)  
-- [ ] Implement betting logic  
-- [ ] Implement Champions-League-style bracket generator  
-- [ ] Simulate match outcomes (random or API-based data)  
-- [ ] Save match results + bets to log file  
+- [x] Create main menu (navigation, exit command)  
+- [x] Implement betting logic  
+- [x] Implement Champions-League-style bracket generator  
+- [x] Simulate match outcomes (random or API-based data)  
+- [x] Save match results + bets to log file  
 - [ ] Function to display log file  
 - [ ] Add coloured text and graphical console elements  
 - [ ] Connect simple API   
 - [ ] Create requirements.txt  
 - [ ] Beautify console UI  
-- [ ] Add input validation + try/except blocks  
-- [ ] Document functions  
+- [x] Add input validation + try/except blocks  
+- [x] Document functions  
 - [ ] Final testing  
 
 ---
-
-,yutvkuy
