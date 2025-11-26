@@ -5,6 +5,7 @@ import threading
 import random
 
 from utils import load_teams
+from logger import log
 
 MULTIPLIERS = {
     "Round of 16": 1.2,
@@ -19,7 +20,10 @@ class CLGuiApp:
         self.root.title("Champions League Simulator")
         self.root.geometry("750x620")
 
+        log("GUI launched")
+
         self.teams = load_teams()
+        log(f"Teams loaded: {len(self.teams)}")
 
         self.team_label = tk.Label(root, text="Choose your team:")
         self.team_label.pack(pady=6)
@@ -68,12 +72,13 @@ class CLGuiApp:
         self.root.after(0, _append)
 
     def ask_age(self):
-        age_ok = {"value": False} 
+        log("Age check dialog opened")
+        age_ok = {"value": False}
         dialog = tk.Toplevel(self.root)
         dialog.title("Age Verification")
         dialog.geometry("320x140")
         dialog.transient(self.root)
-        dialog.grab_set() 
+        dialog.grab_set()
 
         tk.Label(dialog, text="Enter your age:").pack(pady=8)
         age_entry = tk.Entry(dialog, width=10)
@@ -85,27 +90,30 @@ class CLGuiApp:
                 age = int(val)
                 if age >= 21:
                     age_ok["value"] = True
+                    log(f"Age verified: {age}")
                     dialog.destroy()
                 else:
                     messagebox.showerror("Error", "You must be 21 or older to play.")
-                    age_ok["value"] = False
+                    log(f"Age denied: {age}")
                     dialog.destroy()
             except ValueError:
                 messagebox.showerror("Error", "Please enter a valid integer for age.")
+                log(f"Invalid age input: {val}")
 
-        submit_btn = tk.Button(dialog, text="Submit", command=submit_age)
-        submit_btn.pack(pady=8)
-
+        tk.Button(dialog, text="Submit", command=submit_age).pack(pady=8)
         self.root.wait_window(dialog)
         return age_ok["value"]
 
     def start_game(self):
+        log("Start button pressed")
+
         self.cashout_button.pack_forget()
         self.cashout_button.config(state="disabled")
         self.continue_button.pack_forget()
         self.continue_button.config(state="disabled")
 
         if not self.ask_age():
+            log("Start blocked: age check failed")
             return
 
         team = self.team_var.get()
@@ -113,6 +121,7 @@ class CLGuiApp:
 
         if not team:
             messagebox.showerror("Error", "Select a team.")
+            log("Start failed: no team selected")
             return
 
         try:
@@ -121,14 +130,17 @@ class CLGuiApp:
                 raise ValueError
         except ValueError:
             messagebox.showerror("Error", "Enter a valid positive bet amount.")
+            log(f"Invalid bet amount: {bet_text}")
             return
 
         self.user_team = team
         self.bet_amount = bet
         self.winnings = bet
-        self.available_teams = load_teams()  
+        self.available_teams = load_teams()
         self.current_round_index = 0
         self.game_running = True
+
+        log(f"Tournament started | Team: {team} | Bet: {bet}")
 
         self.output_box.config(state="normal")
         self.output_box.delete("1.0", tk.END)
@@ -142,20 +154,27 @@ class CLGuiApp:
         threading.Thread(target=self.run_tournament, daemon=True).start()
 
     def simulate_match(self, opponent):
+        log(f"Match started: {self.user_team} vs {opponent}")
+
         user_score = random.randint(0, 3)
         opp_score = random.randint(0, 3)
 
         self.write_output(f"Match: {self.user_team} vs {opponent}")
         self.write_output(f"Final Score: {self.user_team} {user_score} - {opp_score} {opponent}")
+        log(f"Score: {user_score}-{opp_score}")
 
         if user_score > opp_score:
             self.write_output("You win and advance.")
+            log("Result: WIN")
             return True, user_score, opp_score
-        elif user_score < opp_score:
+
+        if user_score < opp_score:
             self.write_output("You lose and are eliminated.")
+            log("Result: LOSS")
             return False, user_score, opp_score
 
         self.write_output("Match is a draw. Going to penalty shootout...")
+        log("Penalty shootout started")
         time.sleep(1)
 
         user_pen = random.randint(3, 5)
@@ -166,90 +185,95 @@ class CLGuiApp:
             opp_pen += random.randint(0, 1)
 
         self.write_output(f"Penalty Shootout Score: {self.user_team} {user_pen} - {opp_pen} {opponent}")
+        log(f"Penalty shootout result: {user_pen}-{opp_pen}")
 
         if user_pen > opp_pen:
             self.write_output("You win the penalty shootout.")
+            log("Result: WIN (penalties)")
             return True, user_score, opp_score
-        else:
-            self.write_output("You lose the penalty shootout.")
-            return False, user_score, opp_score
+
+        self.write_output("You lose the penalty shootout.")
+        log("Result: LOSS (penalties)")
+        return False, user_score, opp_score
 
     def get_opponent(self):
         choices = [t for t in self.available_teams if t != self.user_team]
-        return random.choice(choices)
+        opponent = random.choice(choices)
+        log(f"Opponent selected: {opponent}")
+        return opponent
 
     def run_tournament(self):
         while self.current_round_index < len(self.rounds):
             if not self.game_running:
+                log("Tournament stopped")
                 return
 
             round_name = self.rounds[self.current_round_index]
+            log(f"Round started: {round_name}")
+
             self.write_output("")
             self.write_output(f"=== {round_name} ===")
 
             opponent = self.get_opponent()
-            try:
+            if opponent in self.available_teams:
                 self.available_teams.remove(opponent)
-            except ValueError:
-                pass
 
             win, us, them = self.simulate_match(opponent)
 
             if not win:
                 self.write_output(f"\nYou lost your full bet of ${self.bet_amount:.2f}")
-                self.root.after(0, lambda: self.cashout_button.pack_forget())
-                self.root.after(0, lambda: self.cashout_button.config(state="disabled"))
-                self.root.after(0, lambda: self.continue_button.pack_forget())
-                self.root.after(0, lambda: self.continue_button.config(state="disabled"))
+                log(f"Eliminated in round: {round_name}")
+                self.cashout_button.pack_forget()
+                self.cashout_button.config(state="disabled")
+                self.continue_button.pack_forget()
+                self.continue_button.config(state="disabled")
                 self.game_running = False
                 return
 
             multiplier = MULTIPLIERS.get(round_name, 1)
             self.winnings *= multiplier
+
             self.write_output(f"Current winnings: ${self.winnings:.2f} (x{multiplier})")
+            log(f"Winnings updated: {self.winnings}")
 
             if round_name == "Final":
-                self.write_output("\nYour team won the Champions League.")
+                self.write_output("Your team won the Champions League.")
                 self.write_output(f"Final winnings: ${self.winnings:.2f}")
-                self.root.after(0, lambda: self.cashout_button.pack_forget())
-                self.root.after(0, lambda: self.cashout_button.config(state="disabled"))
-                self.root.after(0, lambda: self.continue_button.pack_forget())
-                self.root.after(0, lambda: self.continue_button.config(state="disabled"))
+                log("Tournament WON")
+                self.cashout_button.pack_forget()
+                self.cashout_button.config(state="disabled")
+                self.continue_button.pack_forget()
+                self.continue_button.config(state="disabled")
                 self.game_running = False
                 return
 
-            self.root.after(0, lambda: self.cashout_button.config(state="normal"))
-            self.root.after(0, lambda: self.cashout_button.pack())
-            self.root.after(0, lambda: self.continue_button.config(state="normal"))
-            self.root.after(0, lambda: self.continue_button.pack())
+            self.cashout_button.config(state="normal")
+            self.cashout_button.pack()
+            self.continue_button.config(state="normal")
+            self.continue_button.pack()
 
             self.write_output("\nChoose an option: Continue or Cash Out...\n")
+            log("Waiting for user input (continue/cashout)")
             return
 
     def continue_round(self):
+        log("User selected CONTINUE")
         self.cashout_button.pack_forget()
         self.cashout_button.config(state="disabled")
         self.continue_button.pack_forget()
         self.continue_button.config(state="disabled")
-
         self.current_round_index += 1
-
         threading.Thread(target=self.run_tournament, daemon=True).start()
 
     def cash_out(self):
-        if not self.game_running:
-            return
-
+        log(f"User selected CASH OUT | Amount: {self.winnings}")
+        self.write_output(f"\nYou cashed out with ${self.winnings:.2f}")
         self.cashout_button.pack_forget()
         self.cashout_button.config(state="disabled")
         self.continue_button.pack_forget()
         self.continue_button.config(state="disabled")
-
-        self.write_output(f"\nYou cashed out with ${self.winnings:.2f}")
-
         self.current_round_index += 1
         threading.Thread(target=self.run_tournament, daemon=True).start()
-
 
 def main():
     root = tk.Tk()

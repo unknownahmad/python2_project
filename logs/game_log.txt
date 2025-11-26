@@ -1,0 +1,43 @@
+[2025-11-26 20:04:44] GUI launched
+[2025-11-26 20:04:44] Teams loaded: 16
+[2025-11-26 20:05:09] Start button pressed
+[2025-11-26 20:05:09] Age check dialog opened
+[2025-11-26 20:05:16] Age denied: 11
+[2025-11-26 20:05:16] Start blocked: age check failed
+[2025-11-26 20:05:23] Start button pressed
+[2025-11-26 20:05:23] Age check dialog opened
+[2025-11-26 20:05:27] Age verified: 22
+[2025-11-26 20:05:27] Tournament started | Team: Real Madrid | Bet: 2000.0
+[2025-11-26 20:05:27] Round started: Round of 16
+[2025-11-26 20:05:27] Opponent selected: Ajax
+[2025-11-26 20:05:27] Match started: Real Madrid vs Ajax
+[2025-11-26 20:05:27] Score: 2-0
+[2025-11-26 20:05:27] Result: WIN
+[2025-11-26 20:05:27] Winnings updated: 2400.0
+[2025-11-26 20:05:27] Waiting for user input (continue/cashout)
+[2025-11-26 20:05:33] User selected CONTINUE
+[2025-11-26 20:05:33] Round started: Quarter Finals
+[2025-11-26 20:05:33] Opponent selected: Arsenal
+[2025-11-26 20:05:33] Match started: Real Madrid vs Arsenal
+[2025-11-26 20:05:33] Score: 0-0
+[2025-11-26 20:05:33] Penalty shootout started
+[2025-11-26 20:05:34] Penalty shootout result: 5-3
+[2025-11-26 20:05:34] Result: WIN (penalties)
+[2025-11-26 20:05:34] Winnings updated: 3600.0
+[2025-11-26 20:05:34] Waiting for user input (continue/cashout)
+[2025-11-26 20:05:36] User selected CONTINUE
+[2025-11-26 20:05:36] Round started: Semi Finals
+[2025-11-26 20:05:36] Opponent selected: Inter Milan
+[2025-11-26 20:05:36] Match started: Real Madrid vs Inter Milan
+[2025-11-26 20:05:36] Score: 3-1
+[2025-11-26 20:05:36] Result: WIN
+[2025-11-26 20:05:36] Winnings updated: 6480.0
+[2025-11-26 20:05:36] Waiting for user input (continue/cashout)
+[2025-11-26 20:05:40] User selected CONTINUE
+[2025-11-26 20:05:40] Round started: Final
+[2025-11-26 20:05:40] Opponent selected: Porto
+[2025-11-26 20:05:40] Match started: Real Madrid vs Porto
+[2025-11-26 20:05:40] Score: 2-1
+[2025-11-26 20:05:40] Result: WIN
+[2025-11-26 20:05:40] Winnings updated: 16200.0
+[2025-11-26 20:05:40] Tournament WON
