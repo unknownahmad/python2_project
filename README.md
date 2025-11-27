@@ -24,6 +24,14 @@ It uses a full Tkinter-based interface with betting mechanics, AI-powered footba
 This project demonstrates modular decomposition, OOP, API integration, error handling, data validation, and GUI design — fulfilling the full set of project criteria.
 
 
+
+
+https://github.com/user-attachments/assets/8f9dad5e-8aa7-4df0-923e-e091497aee85
+
+
+
+
+
 =========================================================================================================
 
 🎯 Purpose of the Program
