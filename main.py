@@ -1,7 +1,9 @@
 from menu import main_menu
 from utils import clear_screen
+from db import init_db
 
 def main():
+    init_db()
     while True:
         clear_screen()
         if not main_menu():

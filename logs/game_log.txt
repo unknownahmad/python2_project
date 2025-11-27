@@ -41,3 +41,135 @@
 [2025-11-26 20:05:40] Result: WIN
 [2025-11-26 20:05:40] Winnings updated: 16200.0
 [2025-11-26 20:05:40] Tournament WON
+[2025-11-26 22:26:26] GUI launched
+[2025-11-26 22:26:26] Teams loaded: 16
+[2025-11-26 22:26:32] Start button pressed
+[2025-11-26 22:26:32] Age check dialog opened
+[2025-11-26 22:26:37] Age verified: 25
+[2025-11-26 22:26:37] Tournament started | Team: Barcelona | Bet: 100.0
+[2025-11-26 22:26:37] Round started: Round of 16
+[2025-11-26 22:26:37] Opponent selected: Manchester City
+[2025-11-26 22:26:37] Match started: Barcelona vs Manchester City
+[2025-11-26 22:26:37] Score: 0-2
+[2025-11-26 22:26:37] Result: LOSS
+[2025-11-26 22:26:37] Eliminated in round: Round of 16
+[2025-11-26 22:26:40] Start button pressed
+[2025-11-26 22:26:40] Age check dialog opened
+[2025-11-26 22:26:44] Age verified: 25
+[2025-11-26 22:26:44] Tournament started | Team: Barcelona | Bet: 100.0
+[2025-11-26 22:26:44] Round started: Round of 16
+[2025-11-26 22:26:44] Opponent selected: Inter Milan
+[2025-11-26 22:26:44] Match started: Barcelona vs Inter Milan
+[2025-11-26 22:26:44] Score: 3-0
+[2025-11-26 22:26:44] Result: WIN
+[2025-11-26 22:26:44] Winnings updated: 120.0
+[2025-11-26 22:26:44] Waiting for user input (continue/cashout)
+[2025-11-26 22:26:47] User selected CONTINUE
+[2025-11-26 22:26:47] Round started: Quarter Finals
+[2025-11-26 22:26:47] Opponent selected: Juventus
+[2025-11-26 22:26:47] Match started: Barcelona vs Juventus
+[2025-11-26 22:26:47] Score: 2-3
+[2025-11-26 22:26:47] Result: LOSS
+[2025-11-26 22:26:47] Eliminated in round: Quarter Finals
+[2025-11-26 22:26:59] Menu opened
+[2025-11-26 22:27:03] User selected: Start New Game
+[2025-11-26 22:27:03] Tournament started
+[2025-11-26 22:27:06] Age verified: 22
+[2025-11-26 22:27:07] Team selected by number: Barcelona
+[2025-11-26 22:27:10] Bet amount entered: 233.0
+[2025-11-26 22:27:10] Team selected: Barcelona
+[2025-11-26 22:27:10] Bet placed: 233.0
+[2025-11-26 22:27:15] Round started: Round of 16
+[2025-11-26 22:27:15] Match started: Barcelona vs Dortmund
+[2025-11-26 22:27:16] Score: 1-3
+[2025-11-26 22:27:16] Result: LOSS
+[2025-11-26 22:27:16] Eliminated in Round of 16. Lost 233.0
+[2025-11-26 22:27:19] Menu opened
+[2025-11-26 22:27:20] User selected: Start New Game
+[2025-11-26 22:27:20] Tournament started
+[2025-11-26 22:27:22] Age verified: 233
+[2025-11-26 22:27:23] Team selected by number: Bayern Munich
+[2025-11-26 22:27:26] Bet amount entered: 34.0
+[2025-11-26 22:27:26] Team selected: Bayern Munich
+[2025-11-26 22:27:26] Bet placed: 34.0
+[2025-11-26 22:27:27] Round started: Round of 16
+[2025-11-26 22:27:27] Match started: Bayern Munich vs Porto
+[2025-11-26 22:27:28] Score: 2-0
+[2025-11-26 22:27:28] Result: WIN
+[2025-11-26 22:27:28] Winnings updated: 40.8
+[2025-11-26 22:27:31] User selected: Continue
+[2025-11-26 22:27:31] Round started: Quarter Finals
+[2025-11-26 22:27:31] Match started: Bayern Munich vs Inter Milan
+[2025-11-26 22:27:33] Score: 3-1
+[2025-11-26 22:27:33] Result: WIN
+[2025-11-26 22:27:33] Winnings updated: 61.199999999999996
+[2025-11-26 22:27:36] User selected: Continue
+[2025-11-26 22:27:36] Round started: Semi Finals
+[2025-11-26 22:27:36] Match started: Bayern Munich vs Chelsea
+[2025-11-26 22:27:37] Score: 0-2
+[2025-11-26 22:27:37] Result: LOSS
+[2025-11-26 22:27:37] Eliminated in Semi Finals. Lost 34.0
+[2025-11-26 22:27:39] Menu opened
+[2025-11-26 22:27:41] User selected: Exit
+[2025-11-26 23:04:25] Rejected underage registration: amal (16)
+[2025-11-26 23:09:21] Failed login: amal
+[2025-11-26 23:09:26] User registered: amal
+[2025-11-26 23:09:28] User registered: amal
+[2025-11-26 23:09:32] User logged in: amal
+[2025-11-26 23:09:33] GUI launched for user: amal
+[2025-11-26 23:09:33] Teams loaded: 16
+[2025-11-26 23:09:37] Tournament started | user=amal | team=Bayern Munich | bet=12.0
+[2025-11-26 23:09:40] Tournament started | user=amal | team=Bayern Munich | bet=12.0
+[2025-11-26 23:09:42] Tournament started | user=amal | team=Bayern Munich | bet=12.0
+[2025-11-26 23:16:53] User logged in: amal
+[2025-11-26 23:30:32] User logged in: amal
+[2025-11-26 23:30:32] GUI launched for user: amal
+[2025-11-26 23:30:32] Teams loaded: 16
+[2025-11-26 23:30:36] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-26 23:30:41] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-26 23:30:59] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-26 23:31:00] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-26 23:31:01] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-26 23:34:16] Failed login: amal
+[2025-11-26 23:34:22] User logged in: amal
+[2025-11-26 23:34:22] GUI launched for user: amal
+[2025-11-26 23:34:22] Teams loaded: 16
+[2025-11-26 23:34:27] Tournament started | user=amal | team=Liverpool | bet=12.0
+[2025-11-26 23:34:29] Tournament started | user=amal | team=Liverpool | bet=12.0
+[2025-11-26 23:34:30] Tournament started | user=amal | team=Liverpool | bet=12.0
+[2025-11-26 23:44:56] Invalid password during registration
+[2025-11-26 23:45:19] Invalid password during registration
+[2025-11-26 23:45:31] User registered: mikey12
+[2025-11-26 23:45:32] User registered: mikey12
+[2025-11-26 23:45:34] User logged in: mikey12
+[2025-11-26 23:45:34] GUI launched for user: mikey12
+[2025-11-26 23:45:34] Teams loaded: 16
+[2025-11-26 23:51:30] Failed login: ahmad
+[2025-11-26 23:51:33] User registered: ahmad
+[2025-11-26 23:51:34] User registered: ahmad
+[2025-11-26 23:51:36] User logged in: ahmad
+[2025-11-26 23:51:36] GUI launched for user: ahmad
+[2025-11-26 23:51:36] Teams loaded: 16
+[2025-11-26 23:51:46] User logged in: amal
+[2025-11-27 00:26:33] User registered: user_47150
+[2025-11-27 00:31:59] User logged in: amal
+[2025-11-27 00:31:59] GUI launched for user: amal
+[2025-11-27 00:31:59] Teams loaded: 16
+[2025-11-27 00:32:02] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-27 00:32:06] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-27 00:32:29] User registered: user_80734
+[2025-11-27 00:32:36] User registered: user_25377
+[2025-11-27 10:49:08] Failed login: lol
+[2025-11-27 10:49:15] Rejected underage registration: lol (20)
+[2025-11-27 10:49:19] User registered: lol
+[2025-11-27 10:49:20] User registered: lol
+[2025-11-27 10:49:22] User logged in: lol
+[2025-11-27 10:49:22] GUI launched for user: lol
+[2025-11-27 10:49:22] Teams loaded: 16
+[2025-11-27 10:49:27] Tournament started | user=lol | team=Manchester City | bet=1222.0
+[2025-11-27 10:49:29] Tournament started | user=lol | team=Manchester City | bet=1222.0
+[2025-11-27 10:49:30] Tournament started | user=lol | team=Manchester City | bet=1222.0
+[2025-11-27 10:49:37] Tournament started | user=lol | team=Manchester City | bet=1222.0
+[2025-11-27 10:50:44] User logged in: lol
+[2025-11-27 10:50:53] Team selected by number: PSG
+[2025-11-27 10:50:59] Bet amount entered: 266.0
