@@ -1,7 +1,9 @@
 from utils import load_teams
 from logger import log
 
+
 def check_age():
+    """Asks the user for their age and returns True only if they are 21 or older."""
     while True:
         val = input("Enter your age: ").strip()
         try:
@@ -17,7 +19,9 @@ def check_age():
             print("Enter a valid number for age.")
             log(f"Invalid age input: '{val}'")
 
+
 def get_user_team():
+    """Lets the user choose a team by number or name and returns the selected team."""
     teams = load_teams()
     while True:
         print("Available teams:")
@@ -34,7 +38,6 @@ def get_user_team():
                 return team
             print("Invalid number.")
             log(f"Invalid team number: {choice}")
-
         else:
             for t in teams:
                 if choice.lower() == t.lower():
@@ -43,7 +46,9 @@ def get_user_team():
             print("Team not found.")
             log(f"Team not found input: '{choice}'")
 
+
 def get_bet_amount():
+    """Prompts the user for a bet amount and returns it as a positive number."""
     while True:
         val = input("\nEnter your bet amount: $").strip()
         try:

@@ -173,3 +173,148 @@
 [2025-11-27 10:50:44] User logged in: lol
 [2025-11-27 10:50:53] Team selected by number: PSG
 [2025-11-27 10:50:59] Bet amount entered: 266.0
+[2025-11-27 11:47:58] User logged in: amal
+[2025-11-27 11:47:58] GUI launched for user: amal
+[2025-11-27 11:47:58] Teams loaded: 16
+[2025-11-27 11:48:14] User logged in: amal
+[2025-11-27 11:48:37] User logged in: amal
+[2025-11-27 11:48:37] GUI launched for user: amal
+[2025-11-27 11:48:37] Teams loaded: 16
+[2025-11-27 11:48:43] Tournament started | user=amal | team=Manchester City | bet=1555.0
+[2025-11-27 11:49:17] User logged in: lol
+[2025-11-27 11:54:04] User logged in: amal
+[2025-11-27 11:54:04] GUI launched for user: amal
+[2025-11-27 11:54:04] Teams loaded: 16
+[2025-11-27 11:54:07] Tournament started | user=amal | team=Bayern Munich | bet=122.0
+[2025-11-27 11:54:37] User logged in: lol
+[2025-11-27 11:54:37] GUI launched for user: lol
+[2025-11-27 11:54:37] Teams loaded: 16
+[2025-11-27 12:04:21] User logged in: amal
+[2025-11-27 12:04:21] GUI launched for user: amal
+[2025-11-27 12:04:21] Teams loaded: 16
+[2025-11-27 12:04:32] Tournament started | user=amal | team=PSG | bet=12.0
+[2025-11-27 12:04:37] Tournament started | user=amal | team=PSG | bet=12.0
+[2025-11-27 12:04:40] Tournament started | user=amal | team=PSG | bet=12.0
+[2025-11-27 12:09:47] User logged in: amal
+[2025-11-27 12:09:48] GUI launched for user: amal
+[2025-11-27 12:09:48] Teams loaded: 16
+[2025-11-27 12:09:52] Tournament started | user=amal | team=Liverpool | bet=122.0
+[2025-11-27 12:09:53] Tournament started | user=amal | team=Liverpool | bet=122.0
+[2025-11-27 12:09:54] Tournament started | user=amal | team=Liverpool | bet=122.0
+[2025-11-27 12:24:50] User logged in: amal
+[2025-11-27 12:24:50] GUI launched for user: amal
+[2025-11-27 12:24:58] Tournament started | user=amal | team=Barcelona | bet=1000.0
+[2025-11-27 12:25:01] Tournament started | user=amal | team=Barcelona | bet=1000.0
+[2025-11-27 12:25:05] Tournament started | user=amal | team=Barcelona | bet=1000.0
+[2025-11-27 12:25:09] Tournament started | user=amal | team=Barcelona | bet=1000.0
+[2025-11-27 12:25:12] Tournament started | user=amal | team=Barcelona | bet=1000.0
+[2025-11-27 12:25:22] Tournament started | user=amal | team=Barcelona | bet=1000.0
+[2025-11-27 12:25:43] User logged in: lol
+[2025-11-27 12:25:44] GUI launched for user: lol
+[2025-11-27 12:25:48] Tournament started | user=lol | team=Real Madrid | bet=222.0
+[2025-11-27 12:25:50] Tournament started | user=lol | team=Real Madrid | bet=222.0
+[2025-11-27 12:26:09] Failed login: nat
+[2025-11-27 12:26:15] Rejected registration: nat (20)
+[2025-11-27 12:26:18] User registered: nat
+[2025-11-27 12:26:19] User registered: nat
+[2025-11-27 12:26:21] User logged in: nat
+[2025-11-27 12:26:21] GUI launched for user: nat
+[2025-11-27 12:33:19] User logged in: amal
+[2025-11-27 12:33:19] GUI launched for user: amal
+[2025-11-27 12:33:23] Tournament started | user=amal | team=PSG | bet=122.0
+[2025-11-27 12:33:25] Tournament started | user=amal | team=PSG | bet=122.0
+[2025-11-27 12:33:26] Tournament started | user=amal | team=PSG | bet=122.0
+[2025-11-27 12:33:30] Tournament started | user=amal | team=PSG | bet=122.0
+[2025-11-27 12:33:52] User logged in: lol
+[2025-11-27 12:33:52] GUI launched for user: lol
+[2025-11-27 12:33:56] Tournament started | user=lol | team=Liverpool | bet=123.0
+[2025-11-27 12:33:57] Tournament started | user=lol | team=Liverpool | bet=123.0
+[2025-11-27 14:52:35] User registered: nemo8008
+[2025-11-27 14:52:37] User registered: nemo8008
+[2025-11-27 14:52:40] User logged in: nemo8008
+[2025-11-27 14:52:40] GUI launched for user: nemo8008
+[2025-11-27 14:52:51] Tournament started | user=nemo8008 | team=Real Madrid | bet=2000.0
+[2025-11-27 14:53:03] Tournament started | user=nemo8008 | team=Real Madrid | bet=2000.0
+[2025-11-27 14:53:07] Tournament started | user=nemo8008 | team=Real Madrid | bet=2000.0
+[2025-11-27 14:53:21] Tournament started | user=nemo8008 | team=Real Madrid | bet=2000.0
+[2025-11-27 14:53:29] Tournament started | user=nemo8008 | team=Real Madrid | bet=2000.0
+[2025-11-27 14:53:33] Tournament started | user=nemo8008 | team=Real Madrid | bet=2000.0
+[2025-11-27 14:54:04] Tournament started | user=nemo8008 | team=PSG | bet=2000.0
+[2025-11-27 14:54:15] Tournament started | user=nemo8008 | team=PSG | bet=2000.0
+[2025-11-27 14:55:49] User logged in: nemo8008
+[2025-11-27 14:55:49] GUI launched for user: nemo8008
+[2025-11-27 14:55:58] Tournament started | user=nemo8008 | team=Real Madrid | bet=10000.0
+[2025-11-27 14:56:04] Tournament started | user=nemo8008 | team=Real Madrid | bet=10000.0
+[2025-11-27 15:17:30] User logged in: lol
+[2025-11-27 15:17:31] GUI launched for user: lol
+[2025-11-27 15:17:42] Tournament started | user=lol | team=Barcelona | bet=10000.0
+[2025-11-27 15:18:05] User logged in: lol
+[2025-11-27 15:18:05] GUI launched for user: lol
+[2025-11-27 15:21:19] User logged in: lol
+[2025-11-27 15:21:19] GUI launched for user: lol
+[2025-11-27 15:27:40] User logged in: lol
+[2025-11-27 15:28:51] User logged in: lol
+[2025-11-27 15:28:51] GUI launched for user: lol
+[2025-11-27 15:40:12] User logged in: lol
+[2025-11-27 15:40:12] GUI launched for user: lol
+[2025-11-27 15:40:24] Tournament started | user=lol | team=Bayern Munich | bet=100.0
+[2025-11-27 15:45:56] User logged in: lol
+[2025-11-27 15:45:56] GUI launched for user: lol
+[2025-11-27 15:54:29] User logged in: lol
+[2025-11-27 15:54:29] GUI launched for user: lol
+[2025-11-27 15:54:57] User logged in: amal
+[2025-11-27 15:54:57] GUI launched for user: amal
+[2025-11-27 16:09:43] Failed login: lol
+[2025-11-27 16:09:51] User logged in: lol
+[2025-11-27 16:09:52] GUI launched for user: lol
+[2025-11-27 16:14:05] User logged in: lol
+[2025-11-27 16:14:05] GUI launched for user: lol
+[2025-11-27 16:30:13] [DECORATOR] Called function: authenticate
+[2025-11-27 16:30:14] User logged in: lol
+[2025-11-27 16:30:14] GUI launched for user: lol
+[2025-11-27 16:30:26] [DECORATOR] Called function: update_after_loss
+[2025-11-27 16:30:32] [DECORATOR] Called function: update_after_cashout
+[2025-11-27 16:56:00] [DECORATOR] Called function: register_user
+[2025-11-27 16:56:02] [DECORATOR] Called function: authenticate
+[2025-11-27 16:56:03] User logged in: lol
+[2025-11-27 16:56:03] GUI launched for user: lol
+[2025-11-27 16:56:13] [DECORATOR] Called function: update_after_loss
+[2025-11-27 18:08:42] [DECORATOR] Called function: register_user
+[2025-11-27 18:08:45] [DECORATOR] Called function: authenticate
+[2025-11-27 18:08:46] User logged in: lol
+[2025-11-27 18:08:46] GUI launched for user: lol
+[2025-11-27 18:09:18] [DECORATOR] Called function: update_after_loss
+[2025-11-27 20:01:35] [DECORATOR] Called function: authenticate
+[2025-11-27 20:01:38] Failed login: dtftj
+[2025-11-27 20:01:48] Rejected registration: dtftj (17)
+[2025-11-27 20:01:58] [DECORATOR] Called function: register_user
+[2025-11-27 20:02:17] [DECORATOR] Called function: authenticate
+[2025-11-27 20:02:19] User logged in: lol
+[2025-11-27 20:02:20] GUI launched for user: lol
+[2025-11-27 20:03:46] [DECORATOR] Called function: update_after_cashout
+[2025-11-27 23:25:29] [DECORATOR] Called function: register_user
+[2025-11-27 23:25:40] Rejected registration: lol (20)
+[2025-11-27 23:25:42] [DECORATOR] Called function: authenticate
+[2025-11-27 23:25:45] Failed login: lol
+[2025-11-27 23:26:00] [DECORATOR] Called function: authenticate
+[2025-11-27 23:26:02] User logged in: lol
+[2025-11-27 23:26:02] GUI launched for user: lol
+[2025-11-27 23:26:11] [DECORATOR] Called function: update_after_loss
+[2025-11-27 23:26:22] [DECORATOR] Called function: update_after_cashout
+[2025-11-27 23:27:44] [DECORATOR] Called function: authenticate
+[2025-11-27 23:27:46] User logged in: lol
+[2025-11-27 23:27:46] GUI launched for user: lol
+[2025-11-27 23:28:25] [DECORATOR] Called function: authenticate
+[2025-11-27 23:28:28] User logged in: lol
+[2025-11-27 23:28:28] GUI launched for user: lol
+[2025-11-27 23:35:40] Rejected registration: user1 (20)
+[2025-11-27 23:35:45] [DECORATOR] Called function: register_user
+[2025-11-27 23:35:56] [DECORATOR] Called function: register_user
+[2025-11-27 23:35:56] User registered: user1
+[2025-11-27 23:35:58] User registered: user1
+[2025-11-27 23:35:59] [DECORATOR] Called function: authenticate
+[2025-11-27 23:36:01] User logged in: user1
+[2025-11-27 23:36:01] GUI launched for user: user1
+[2025-11-27 23:36:09] [DECORATOR] Called function: update_after_loss
+[2025-11-27 23:36:14] [DECORATOR] Called function: update_after_loss
+[2025-11-27 23:36:21] [DECORATOR] Called function: update_after_cashout

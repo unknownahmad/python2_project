@@ -1,15 +1,19 @@
 import sqlite3
 import os
 
-DB_PATH = "data/users.db"
-TEST_DB_PATH = "data/test_users.db"
+DB_PATH = "data/users.db"        # Path to the main user database.
+TEST_DB_PATH = "data/test_users.db"  # Path to the test database.
+
 
 def get_connection(test=False):
+    """Returns a database connection, using the test database if test=True."""
     os.makedirs("data", exist_ok=True)
     path = TEST_DB_PATH if test else DB_PATH
     return sqlite3.connect(path)
 
+
 def init_db(test=False):
+    """Creates the users table if it does not already exist."""
     conn = get_connection(test=test)
     cursor = conn.cursor()
     cursor.execute("""

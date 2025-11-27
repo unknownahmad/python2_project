@@ -13,7 +13,9 @@ MULTIPLIERS = {
     "Final": 2.5
 }
 
+
 def simulate_match(user_team, opponent):
+    """Simulates a match between the user's team and an opponent and returns True if the user wins."""
     print(f"\nMatch: {user_team} vs {opponent}")
     for _ in range(3):
         time.sleep(0.5)
@@ -40,10 +42,14 @@ def simulate_match(user_team, opponent):
     print(f"Penalty: {pen1} - {pen2}")
     return pen1 > pen2
 
+
 def get_opponent(user_team, available):
+    """Selects a random opponent that is not the user's team."""
     return random.choice([t for t in available if t != user_team])
 
+
 def play_tournament(user):
+    """Runs the full text-based tournament flow for the logged-in user."""
     clear_screen()
     print("Welcome to the Tournament!\n")
 

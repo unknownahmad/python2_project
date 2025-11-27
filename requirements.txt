@@ -1,34 +1,19 @@
-==========================================
+# ==========================================
+# Champions League Simulator - Requirements
+# ==========================================
 
-CHAMPIONS LEAGUE SIMULATOR - DEPENDENCIES
-
-==========================================
-
---- Runtime Dependencies ---
-
-If your app connects to the internet (API), this is required.
-
+# ------------------------------
+# API + HTTP Networking
+# ------------------------------
 requests>=2.31.0
-
-Required for DeepSeek API (DeepSeek uses the OpenAI SDK)
+# Required to make HTTP requests or call external services
 
 openai>=1.0.0
+# DeepSeek API uses the OpenAI-compatible SDK
+# The code uses "OpenAI()" class even though the base URL is DeepSeek's
 
---- Testing Framework ---
-
-Required to run the tests in your 'tests/' folder.
-
+# ------------------------------
+# Testing Framework
+# ------------------------------
 pytest>=7.4.0
-
---- Build Tools (Optional) ---
-
-Useful if you want to turn this into an .exe later.
-
-pyinstaller>=6.0.0
-
---- Code Quality (Optional) ---
-
-Tools to format your code and check for errors before finalizing.
-
-black          # Automatically formats code to be pep8 compliant
-flake8         # Linter to catch syntax errors and unused imports
+# Needed for running unit tests in the tests/ directory

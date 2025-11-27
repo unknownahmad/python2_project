@@ -6,7 +6,9 @@ from logger import log
 
 current_user = None
 
+
 def login_menu():
+    """Handles the login and registration menu for user authentication."""
     global current_user
 
     print("1. Login")
@@ -47,6 +49,7 @@ def login_menu():
 
 
 def main_menu():
+    """Displays the main menu and handles navigation based on login state."""
     global current_user
     display_welcome()
 
