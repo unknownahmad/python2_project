@@ -1,0 +1,34 @@
+==========================================
+
+CHAMPIONS LEAGUE SIMULATOR - DEPENDENCIES
+
+==========================================
+
+--- Runtime Dependencies ---
+
+If your app connects to the internet (API), this is required.
+
+requests>=2.31.0
+
+Required for DeepSeek API (DeepSeek uses the OpenAI SDK)
+
+openai>=1.0.0
+
+--- Testing Framework ---
+
+Required to run the tests in your 'tests/' folder.
+
+pytest>=7.4.0
+
+--- Build Tools (Optional) ---
+
+Useful if you want to turn this into an .exe later.
+
+pyinstaller>=6.0.0
+
+--- Code Quality (Optional) ---
+
+Tools to format your code and check for errors before finalizing.
+
+black          # Automatically formats code to be pep8 compliant
+flake8         # Linter to catch syntax errors and unused imports

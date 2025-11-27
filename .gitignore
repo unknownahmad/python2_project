@@ -1,0 +1,53 @@
+# ==========================================
+# PYTHON BASICS
+# ==========================================
+# Ignore the compiled python files (the binary versions of your code)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# DATABASE (CRITICAL)
+# ==========================================
+# Never upload your local database. It contains your personal test data
+# and potentially sensitive user info.
+*.db
+*.sqlite3
+data/*.db
+
+# ==========================================
+# LOGS
+# ==========================================
+# Keep the 'logs' folder structure, but ignore the actual log text files
+logs/*.log
+*.log
+
+# ==========================================
+# SECRETS & API KEYS
+# ==========================================
+# If you use an API, never upload the file containing your keys
+.env
+.env.local
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+# Ignore the folder where your libraries are installed
+venv/
+env/
+ENV/
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+# Annoying system files that shouldn't be in your code
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# TESTING & IDE
+# ==========================================
+.pytest_cache/
+.vscode/
+.idea/
