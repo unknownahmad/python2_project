@@ -318,3 +318,6 @@
 [2025-11-27 23:36:09] [DECORATOR] Called function: update_after_loss
 [2025-11-27 23:36:14] [DECORATOR] Called function: update_after_loss
 [2025-11-27 23:36:21] [DECORATOR] Called function: update_after_cashout
+[2025-11-28 00:30:07] [DECORATOR] Called function: register_user
+[2025-11-28 00:30:07] User registered: user_22104
+[2025-11-28 00:30:07] [DECORATOR] Called function: authenticate
